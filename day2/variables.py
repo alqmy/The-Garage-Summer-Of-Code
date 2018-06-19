@@ -18,6 +18,7 @@ victor_123
 $victor
 @#$
 !!
+my-variable
 
 # Adicional, variables no pueden ser palabras reservadas por Python,
 # como los siguientes

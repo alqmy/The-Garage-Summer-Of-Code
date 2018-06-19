@@ -21,3 +21,13 @@ print(c)
 # exponent
 c = a ** b # a^b
 print(c)
+
+
+c = a % b # reciproco
+#   --
+# a|b
+#  -c
+#  ---
+#   r  <--- modulo
+
+c = (a + b**a) + b / a

@@ -5,13 +5,19 @@ print(not True)
 
 print(not False)
 
-print(not a or b)
+# False or False
+print(not True or False)
 
-print(not a and b)
+# False and True
+print(not True and False)
 
-print(not (a or b))
+# not (True or False)
+# not True or not False
+print(not (True or False)) # True
 
-print(not (a and b))
+# not True and not False
+print(not (True and False))
+
 
 print(a or not b)
 
