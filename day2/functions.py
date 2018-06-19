@@ -42,6 +42,7 @@ print(many_return(5))
 #     porcentage = puntos / valor_de_examen
 #     grade(porcentage)
 
+# example of one function calling another function
 def even_or_odd(n):
     if n % 2 == 0:
         return "even"
