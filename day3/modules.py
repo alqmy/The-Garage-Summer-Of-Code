@@ -28,4 +28,11 @@ We can also import everything from a module
 """
 
 # import everything from the calendar module
-from calendar import *
+from datetime import *
+
+# xmas = datetime.date(2018, 12, 25)
+xmas = date(2018, 12, 25)
+print(xmas)
+
+# change name of import
+import base64 as b64

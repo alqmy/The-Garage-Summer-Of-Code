@@ -21,3 +21,28 @@ residents['Panther'] = 200
 
 # you can use the same syntax to change values
 residents['Panther'] = 100
+
+
+my_dictionary = {
+    'doopla': "Un carro con 4-wheel drive",
+    'babadoo': "Un doopla que no tiene 4-wheel drive",
+    'ayoooo': "No"
+}
+
+# Prints: Un carro con 4-wheel drive
+print(my_dictionary['doopla'])
+
+# add an entry to the dictionary
+my_dictionary['cancion'] = "Toda musica que no sea mala"
+
+victor = {
+    'age': 23,
+    'lenguajes': ['Espanol', 'English', 'Spanglish'],
+    'habilidades': {
+        'hablar': True,
+        'mentir': False,
+    },
+}
+
+print(victor['habilidades']['hablar'])
+print(victor['lenguajes'][0])
