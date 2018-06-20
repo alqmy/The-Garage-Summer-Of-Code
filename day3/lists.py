@@ -27,10 +27,10 @@ suitcase.append("sunglasses")
 
 # Your code here!
 
-list_length = ________ # Set this to the length of suitcase
+list_length = len(suitcase) # Set this to the length of suitcase
 
-print "There are %d items in the suitcase." % (list_length)
-print suitcase
+print("There are %d items in the suitcase." % (list_length))
+print(suitcase)
 
 
 """
@@ -42,10 +42,11 @@ suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
 first = suitcase[0:2]
 
 # Third and fourth items (index two and three)
-middle = 
+middle = suitcase[2:2]
 
 # The last two items (index four and five)
-last =  
+last = suitcase[4:2]
+last_reverse = suitcase[:-2]
 
 """
 We can iterate (go through) a list using the for loop

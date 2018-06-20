@@ -21,9 +21,11 @@ meal_with_tax = tax(meal_cost)
 meal_with_tip = tip(meal_with_tax)
 
 
-# Functions can call other fuctions
+# Functions can call other functions
 def fun_one(n):
     return n * 5
 
 def fun_two(m):
     return fun_one(m) + 7
+
+print(fun_two(500)) # 25007
