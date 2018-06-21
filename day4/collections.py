@@ -36,7 +36,7 @@ WEEKDAYS.count('Monday')  # 1
 
 # We CANNOT however change the elements of a tuple once they are
 # defined. They stay that way forever
-# WEEKDAYS[0] = "Conday" is not allowed
+# WEEKDAYS[0] = "Conday" # is not allowed
 
 
 # Sets - A set is a collection of unique elements
@@ -114,7 +114,6 @@ print(car_brand_tuple)
 colors = list(marbles)  # the keys are used by default
 counts = list(marbles.values())  # but we can use a view to get the values
 marbles_Set = set(marbles.items())  # or the key-value pairs
-
 
 # Python doesn't know how to convert this into a dictionary
 # dict([1,2,3,4])

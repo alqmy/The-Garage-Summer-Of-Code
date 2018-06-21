@@ -41,13 +41,13 @@ Functions are an exception to the rule of global scope.
 All functions can reach other functions defined in the
 scope outside of them.
 """
-def a():
+def af():
     "function that does nothing"
     pass
 
-def b():
+def bf():
     "function that does nothing but call a"
-    a() # b can reach a, no need to mark as global
+    af() # b can reach a, no need to mark as global
 
 """
 Here are some examples of different variable scopes in Python

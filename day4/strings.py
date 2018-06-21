@@ -38,4 +38,6 @@ l = ['a', 'b', 'r', 'a', 'c', 'a', 'd', 'a', 'b', 'r', 'a']
 s = "".join(l)
 print(s) # prints abracadabra
 
+phrase = "The quick brown fox jumped over the lazy dog"
 
+words = phrase.split(" ")
