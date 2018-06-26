@@ -1,5 +1,15 @@
 {
     "editor.fontSize": 20,
     "terminal.integrated.fontSize": 20,
-    "python.pythonPath": "python3"
+    "python.pythonPath": "python3",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./day7",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true
 }
