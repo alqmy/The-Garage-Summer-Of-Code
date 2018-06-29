@@ -4,4 +4,16 @@ def read_file(filename):
     # Your code here
     # replace this return with something 
     # more proper
-    return "" 
+
+    with open(filename, mode="r") as r:
+        txt = ""
+        # for line in r:
+        #     txt += line
+        
+        # return txt
+
+        line = r.readline()
+        while line:
+            txt += line
+            line = r.readline()
+        return txt

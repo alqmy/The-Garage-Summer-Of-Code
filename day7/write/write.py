@@ -4,4 +4,4 @@ def write_file(filename, contents):
     # Your code here
     # replace this return with something 
     # more proper
-    return "" 
+    
